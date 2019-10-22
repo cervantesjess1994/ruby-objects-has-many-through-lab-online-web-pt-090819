@@ -22,8 +22,6 @@ class Patient
   end
 
   def doctors
-    appointments.map do |doc|
-      doc.date
-    end
+    binding.pry 
   end
 end

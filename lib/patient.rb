@@ -1,3 +1,4 @@
+require 'pry'
 class Patient
   attr_accessor :name
 
@@ -22,6 +23,6 @@ class Patient
   end
 
   def doctors
-    binding.pry 
+    binding.pry
   end
 end
